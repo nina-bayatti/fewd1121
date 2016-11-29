@@ -3,6 +3,16 @@ body {
 	color: white;
 }
 
-img{
+img { 
 	border-radius: 50%;
+}
+
+li {
+	/*color: white;*/
+	list-style: none;
+}
+
+a { 
+	color: white;
+	text-decoration: none;
 }

@@ -1,0 +1,25 @@
+body {
+	background: grey;
+	color: white;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	color: pink;
+}
+
+a:hover {
+	color: white;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: lightblue;
+}
