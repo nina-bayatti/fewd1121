@@ -1,0 +1,22 @@
+#grey-box {
+	background-color: grey;
+	padding: 10px 5px;
+}
+#black-box {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.orange-box {
+	background-color: orange;
+}
+#green-text {
+	color: green;
+}
+#blue-text {
+	color:blue;
+}
+#yellow-text {
+	color: yellow;
+}
