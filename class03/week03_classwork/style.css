@@ -1,5 +1,5 @@
 #grey-box {
-	background-color: grey;
+	background-color: #E0E0E0;
 	padding: 10px 5px;
 }
 #black-box {
@@ -10,13 +10,20 @@
 
 .orange-box {
 	background-color: orange;
+	text-align: center;
 }
 #green-text {
 	color: green;
+	text-align: center;
 }
 #blue-text {
 	color:blue;
+	text-align: center;
 }
 #yellow-text {
 	color: yellow;
+	text-align: center;
+}
+body {
+	padding: 1em 4em;
 }
