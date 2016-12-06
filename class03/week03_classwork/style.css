@@ -1,16 +1,19 @@
 #grey-box {
 	background-color: #E0E0E0;
-	padding: 10px 5px;
+	padding: 10px 6px;
 }
 #black-box {
 	background-color: black;
 	color: white;
 	text-align: center;
+	margin: 10px;
 }
 
 .orange-box {
-	background-color: orange;
+	background-color: #ff5a00;
 	text-align: center;
+	padding: 3px 2px;
+	margin: 10px;
 }
 #green-text {
 	color: green;
