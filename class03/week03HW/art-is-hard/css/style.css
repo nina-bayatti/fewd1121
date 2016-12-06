@@ -25,10 +25,10 @@ main p {
 	color: #999999;
 }
 
-#footer {
+/*footer is a tag, not an id*/
+footer {
 	padding: 20px;
-	/*Aligned the footer left instead of right*/
-	text-align: left;
+	text-align: right;
 }
 
 h1,h2,h3,h4, p, ul, ol {
