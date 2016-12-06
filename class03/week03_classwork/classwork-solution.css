@@ -1,0 +1,38 @@
+.container {
+  background-color: rgb(222, 222, 222);
+  width: 75%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.nav {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.article {
+  background-color: tomato;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#article-one {
+  color: blue;
+}
+
+#article-two {
+  color: green;
+}
+
+#article-three {
+  color: yellow;
+}
+
