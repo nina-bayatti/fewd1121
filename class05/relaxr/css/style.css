@@ -35,8 +35,16 @@ body {
   font-size: 55px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
+  background color: #f0efef;
 }
-
+h2 {
+  font-size: 40px;
+  font-weight: 600px;
+}
+.post-entry p {
+  font-size: 24px;
+  font-weight: 300px;
+}
 
 /******************************************
 /* LAYOUT
@@ -49,13 +57,30 @@ body {
 }
 
 header {
-
+  background-color: #033048;
+  height: 70px;
 }
-
-footer {
-
+.logo {
+  color: #f0efef;
+  font-weight: 800px;
+  font-size: 40px;
+  float: left;
 }
-
+nav a {
+  color: #f9e42e;
+  text-decoration: none;
+  font-weight: 600px;
+  font-size: 24px;
+}
+nav li {
+  display: inline-block;
+}
+nav {
+  float: right;
+}
+.blog-posts {
+  clear: both;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
