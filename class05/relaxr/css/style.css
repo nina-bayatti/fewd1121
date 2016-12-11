@@ -29,62 +29,173 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+.logo {
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+}
+.top-nav a {
+  color: #f9e42e;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+}
 body {
   color: #000;
   font-size: 55px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
-  background color: #f0efef;
 }
-h2 {
+.blog-posts h2 {
   font-size: 40px;
-  font-weight: 600px;
-}
-.post-entry p {
-  font-size: 24px;
-  font-weight: 300px;
-}
+  font-weight: 600;
+  color: #033048;
 
+}
+.blog-posts p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #606161;
+
+}
+p.blog-text::first-letter {
+  font-size: 300%;
+}
+a.read-more {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #606161;
+}
+.sidebar h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+}
+.categories a {
+  font-size: 24px;
+  font-weight: 300;
+  color: #606161;
+  text-decoration: none;
+}
+.categories li{
+  line-height: 20px;
+}
+.about-box p {
+  font-size: 22px;
+  font-weight: 300;
+}
+#learn-more a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #606161;
+  text-decoration: none;
+}
+.call-to-action a {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+footer h2 {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 40px;
+
+}
+footer p {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
+.logo {
+  float: left;
+  padding: 20px;
+}
+.top-nav a {
+  padding: 10px;
+}
+.top-nav li {
+  display: inline-block;
+}
+.top-nav {
+  float: right;
+}
+#nav-logo {
+  margin: auto;
+  width: 960px;
+}
+header {
+  background-color: #033048;
+  height: 100px;
+}
 #container {
   width: 960px;
   margin: auto;
+  padding-top: 50px;
 }
-
-header {
-  background-color: #033048;
-  height: 70px;
-}
-.logo {
-  color: #f0efef;
-  font-weight: 800px;
-  font-size: 40px;
-  float: left;
-}
-nav a {
-  color: #f9e42e;
-  text-decoration: none;
-  font-weight: 600px;
-  font-size: 24px;
-}
-nav li {
-  display: inline-block;
-}
-nav {
-  float: right;
+body {
+  background-color: #f0efef;
 }
 .blog-posts {
   clear: both;
+  width: 700px;
+  float: left;
+  padding-right: 20px;
+}
+.read-more {
+  text-align: right;
+}
+.sidebar {
+  float: right;
+  width: 240px;
+  padding: 0px;
+}
+.about-box {
+  padding-top: 50px;
+}
+.advert {
+  padding-top: 50px;
+}
+.call-to-action {
+  background-color: #f9e42e;
+  height: 100px;
+  padding-top: 50px;
+}
+#button {
+  background-color: #121212;
+  height: 40px;
+  width: 200px;
+  margin: auto;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+a#button {
+align-self: center;
+vertical-align: middle;
+margin: auto;
+}
+footer {
+  background-color: #121212;
+  height: 300px;
+  text-align: center;
+  padding: 50px;
+}
+footer img {
+  padding: 50px 20px;
 }
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
+a:hover {
+  color: #f9e42e !important;
+}
 
 
 
