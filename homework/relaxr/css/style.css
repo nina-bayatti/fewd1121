@@ -60,7 +60,14 @@ body {
 }
 p.blog-text::first-letter {
   font-size: 300%;
+  float: left;
+  margin-right: .15em;
+  height: .9em;
+  margin-top: -.1em;
+  //margin-bottom: .5em;
+  font-weight: 600;
 }
+
 a.read-more {
   font-size: 24px;
   font-weight: 600;
@@ -79,7 +86,7 @@ a.read-more {
   text-decoration: none;
 }
 .categories li{
-  line-height: 20px;
+  line-height: 0.6em;
 }
 .about-box p {
   font-size: 22px;
@@ -172,9 +179,9 @@ body {
   height: 40px;
   width: 200px;
   margin: auto;
-  padding-left: 40px;
   padding-top: 10px;
   padding-bottom: 5px;
+  text-align: center;
 }
 a#button {
 align-self: center;
