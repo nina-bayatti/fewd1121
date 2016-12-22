@@ -28,3 +28,30 @@ header nav a {
 	font-size: 20px;
 	margin-left: 50px;
 }
+/*#mobile-nav and #burger displays max-width: 880px*/
+#burger {
+		display: none;
+		float: right;
+
+		}
+#mobile-nav a {
+	display: block;
+	text-align: center;
+	background: lightgrey;
+	line-height: 20px;
+}
+#mobile-nav {
+	display: none;
+}
+@media screen and (max-width: 880px) {
+	#large-nav {
+		display: none;
+	}
+	#burger {
+		display: block;
+	}
+	#mobile-nav {
+		display: block;
+	}
+	}
+}
