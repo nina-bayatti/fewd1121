@@ -1,0 +1,46 @@
+.container {
+width: 960px;
+margin: 0% 2.5%;
+}
+.row div {
+outline: 1px solid black;
+background: rgb(222, 222, 222);
+height: 100px;
+}
+.middle div {
+height: 300px;
+}
+.middle-2 div {
+height: 150px;
+margin-top: 2%;
+}
+div.top {
+margin-bottom: 2%;
+}
+div.bottom {
+margin-top: 2%;
+}
+div.logo {
+height: 75px;
+margin-left: 2%;
+}
+div.nav {
+height: 30px;
+margin-left: 2.5%;
+}
+nav {
+	margin-top: 2%;
+}
+.article div {
+	height: 300px;
+}
+#middle-left {
+	margin-left: 1.25%;
+}
+#middle-middle {
+	margin-right: 2.75%;
+}
+.bottom {
+	margin-right: 2.5%;
+	margin-left: 0.1%;
+}
