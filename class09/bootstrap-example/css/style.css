@@ -1,8 +1,4 @@
-.container {
-width: 960px;
-margin: 0% 2.5%;
-}
-.row div {
+ .row div {
 outline: 1px solid black;
 background: rgb(222, 222, 222);
 height: 100px;
@@ -22,11 +18,9 @@ margin-top: 2%;
 }
 div.logo {
 height: 75px;
-margin-left: 2%;
 }
 div.nav {
 height: 30px;
-margin-left: 2.5%;
 }
 nav {
 	margin-top: 2%;
@@ -34,13 +28,13 @@ nav {
 .article div {
 	height: 300px;
 }
-#middle-left {
-	margin-left: 1.25%;
+div.left-column {
+	height: 500px;
 }
-#middle-middle {
-	margin-right: 2.75%;
+div#banner {
+	height: 100px;
+	margin-bottom: 2%;
 }
-.bottom {
-	margin-right: 2.5%;
-	margin-left: 0.1%;
+div.snippet {
+	height: 100px;
 }
