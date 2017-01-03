@@ -1,0 +1,47 @@
+/*Fonts*/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1;
+	color: yellow;
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+/*Layout*/
+
+.container {
+	width: 960px;
+}
+
+header {
+	background-color: black;
+	border-bottom: 3px solid yellow;
+	height: 100px;
+
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+nav a:hover {
+	color: yellow;
+}

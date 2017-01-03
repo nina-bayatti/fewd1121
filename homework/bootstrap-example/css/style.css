@@ -29,7 +29,7 @@ nav {
 	height: 300px;
 }
 div.left-column {
-	height: 500px;
+	height: 540px;
 }
 div#banner {
 	height: 100px;
@@ -37,4 +37,5 @@ div#banner {
 }
 div.snippet {
 	height: 100px;
+	margin-top: 2%;
 }
