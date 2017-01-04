@@ -43,6 +43,24 @@ h3 {
 	font-weight: bold;
 }
 
+footer {
+	color: white;
+}
+
+.button {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+a.button:hover {
+	text-decoration: none;
+}
+
 /*Layout*/
 
 .container {
@@ -82,7 +100,7 @@ div.banner-image {
 	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
 }
 
-popup.div {
+div.popup {
 	background: rgba(255,255,255,.8);
 	width: 34%;
 	margin: 0 auto;
@@ -91,17 +109,28 @@ popup.div {
 	box-shadow: 0 0 5px rgba(0,0,0,.75);
 }
 
-.button {
-	font-family: 'Oswald', sans-serif;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: bold;
+.popup-button {
 	background: yellow;
 	color: black;
 	display: block;
-	text-align: center;
 	padding: 12px;
 	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
 	border-radius: 5px;
+	background: yellow;
+}
+
+.blurb-button {
+	display: block;
+	padding: 12px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	border-radius: 5px;
+	background: yellow;
+	background: #C6C6C6;
+	color: black;
+}
+
+footer {
+	background: black;
+	padding: 2% 3%;
+	margin-top: 3%;
 }
