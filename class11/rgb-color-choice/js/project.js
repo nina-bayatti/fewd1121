@@ -19,6 +19,7 @@ var red_val;
 var green_val;
 var blue_val;
 var wrapper = document.getElementById('wrapper');
+var colorfulText = document.getElementById('colorful-text');
 
 //Make the submit button clickable
 submit.onclick = function () {
@@ -27,4 +28,5 @@ submit.onclick = function () {
 	var blue_val = blue.value;
 	console.log(red_val + " " + green_val + " " + blue_val);
 	wrapper.style.backgroundColor = "rgb(" + red_val + "," + green_val + "," + blue_val + ")";
+	colorfulText.innerHTML = "rgb(" + red_val + "," + green_val + "," + blue_val + ")";
 }
