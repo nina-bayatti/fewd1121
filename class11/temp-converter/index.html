@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Temp Converter</title>
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
-	<body>
+<head>
+	<title>Temp Converter</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h1>Temperature Converter</h1>
+	<label for="units">I know my temperature in:</label>
+	<select id="units">
+		<option>Farenheit</option>
+		<option>Celsius</option>
+	</select>
+	<br><br>
+	<label for="temp-value">Temperature</label>&nbsp;&nbsp;<input id="temp-value">
+	<br><br>
+	<button id="click-me">Calculate!</button>
+	<br><br>
+	<label for="temp-convert">Temperature Conversion</label>&nbsp;&nbsp;<input id="temp-convert">
 
-		<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
-		<script src="js/app.js"></script>
-	</body>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
 </html>

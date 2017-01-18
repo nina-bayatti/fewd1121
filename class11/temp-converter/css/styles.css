@@ -1,0 +1,28 @@
+body {
+	background-color: lightgrey;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: arial, sans-serif;
+	color: magenta;
+
+}
+
+label, option {
+	font-size: 28px;
+}
+
+label, option, input {
+	color: darkblue;
+	font-family: arial, sans-serif;
+
+}
+#click-me {
+	font-family: arial, sans-serif;
+	font-size: 40px;
+}
+
+#click-me:hover, #units:hover {
+	cursor: pointer;
+}
