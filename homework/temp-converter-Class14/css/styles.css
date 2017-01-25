@@ -1,0 +1,24 @@
+body {
+font-family: 'Poppins', sans-serif;
+padding: 0px 20px;
+}
+
+h1 {
+  font-size: 30px;
+  color: darkgrey;
+  line-height: 30px;
+}
+
+form {
+  font-size: 18px;
+  color: darkgrey;
+}
+
+p {
+  font-size: 18px;
+  color: black;
+}
+
+button:hover {
+  background-color: blue;
+}
