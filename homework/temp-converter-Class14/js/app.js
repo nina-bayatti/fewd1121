@@ -1,21 +1,28 @@
 //Set variables
-var tempValue = parseInt(document.getElementById('#tempValue')).value;
-var tempUnit = document.getElementById('#tempValue');
-var tempConvert = document.getElementById('#tempConvert');
-var unitConvert = document.getElementById('#unitConvert');
-var calculatorButton = document.getElementById('#calculatorButton');
+var button = $('#button');
+var outputUnit = $('#outputUnit');
+var outputValue = $('#outputValue');
 
-function calculateTemp(){
-	if (tempUnit === "&deg;F") {
+
+//define function and trigger
+button.click(function(){
+	// console.log('This works so far.');
+	var inputValue = $('#inputValue').val();
+	inputValue = parseInt(inputValue);
+	var inputUnit = $('#inputUnit');
+	console.log(inputUnit.val());
+
+	if (inputUnit === "F") {
 		console.log('Units === F');
-		$('input#tempConvert').val((tempValue - 32)/1.8);
+		$('#outputValue').html((inputValue - 32)/1.8);
+		$('#outputUnit').html('&deg;F');
 	}else{
 		console.log('Units === C');
-		$('input#tempConvert').val((tempValue * 1.8)+32);
+		$('#outputValue').html((inputValue * 1.8)+32);
+		$('#outputUnit').html('&deg;C');
 	}
-};
-
-$('calculatorButton').click(function(){
-	calculateTemp();
 });
 
+// $('#button').click(function(){
+// 	console.log('this is working');
+// });
