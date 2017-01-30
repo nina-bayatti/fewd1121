@@ -1,0 +1,55 @@
+/*FONTS*/
+.container h1, h2, h3, p {
+	font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron h1, h2 {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.jumbotron h1 {
+	padding-top: 25%;
+}
+
+.aboutTeaser h3 {
+	color: magenta;
+}
+
+p.aboutTeaserText {
+	font-size: 16px;
+	color: grey;
+}
+
+/*LAYOUT*/
+div.jumbotron {
+	background: url(../images/hero-img.png);
+	background-size: cover;
+	margin-top: 1%;
+}
+
+a.btn-success {
+	background-color: #ff87c3;
+	border-color: magenta;
+}
+
+a.btn-success:hover {
+	background-color: magenta;
+	border-color: magenta;
+}
+
+div.aboutImage {
+	background: url(../images/stretch.jpg);
+	background-size: cover;
+	height: 300px;
+}
+
+button.readmore {
+	border: transparent;
+	background-color: transparent;
+}
+
+a.btn-primary {
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+}
