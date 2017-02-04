@@ -6,13 +6,19 @@
 	font-family: 'Poppins', sans-serif;
 }
 
-.jumbotron h1, h2 {
-	color: white;
+h1.lead, h2.lead {
+	color: #ff0067;
 	text-shadow: 2px 2px black;
+	font-weight: 900;
 }
 
-.jumbotron h1 {
+h1.lead {
 	padding-top: 25%;
+	font-size: 67px;
+}
+
+h2.lead {
+	font-size: 40px;
 }
 
 .aboutTeaser h3 {
@@ -31,28 +37,24 @@ div.jumbotron {
 	margin-top: 1%;
 }
 
-a.btn-success {
-	background-color: #ff87c3;
-	border-color: magenta;
-}
-
-a.btn-success:hover {
-	background-color: magenta;
-	border-color: magenta;
-}
-
-div.aboutImage {
-	background: url(../images/stretch.jpg);
+div.aboutTeaser {
+	background-image: url(../images/stretch-view.jpg);
 	background-size: cover;
 	height: 300px;
 }
 
-button.readmore {
-	border: transparent;
-	background-color: transparent;
+a.btn-success {
+	background-color: #ff87c3;
+	border-color: #ff0067;
+}
+
+a.btn-success:hover {
+	background-color: #ff0067;
+	border-color: #ff0067;
 }
 
 a.btn-primary {
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 }
+
