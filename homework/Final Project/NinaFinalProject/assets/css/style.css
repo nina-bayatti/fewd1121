@@ -1,3 +1,6 @@
+/*IMPORTS*/
+@import url(font-awesome.min.css);
+
 /*FONTS*/
 .container h1, h2, h3, p {
 	font-family: 'Poppins', sans-serif;
