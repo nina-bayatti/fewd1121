@@ -1,31 +1,28 @@
 /*IMPORTS*/
 @import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Bangers|Courgette');
 
 /*FONTS*/
-.container h1, h2, h3, p {
-	font-family: 'Poppins', sans-serif;
-}
 
 h1.lead, h2.lead {
 	color: #ff0067;
 	text-shadow: 2px 2px black;
 	font-weight: 900;
-}
-
-a.webTitle {
-	color: #ff0067;
-	font-weight: 900;
-	font-size: 36px;
-	text-decoration: none;
+	letter-spacing: 8px;
 }
 
 h1.lead {
 	padding-top: 25%;
 	font-size: 67px;
+	font-family: 'Bangers', sans-serif;
+	color: #ff0067;
+
 }
 
 h2.lead {
 	font-size: 40px;
+	font-family: 'Bangers', sans-serif;
+
 }
 
 h3.aboutTeaser {
@@ -47,7 +44,30 @@ p {
 	line-height: 35px;
 }
 
+blockquote {
+	font-style: italic;
+	font-size: 24px;
+	font-family: 'Courgette', cursive;
+	font-weight: lighter;
+}
+
 /*LAYOUT*/
+
+a #mobile-nav {
+	display: block;
+}
+
+#burger {
+	display: none;
+}
+
+#burger:hover{
+	cursor: pointer;
+}
+
+#mobile-nav {
+	display: none;
+}
 
 div.jumbotron {
 	background: url(../images/hero-img.png);
@@ -78,3 +98,15 @@ img.parallax-slider {
 	margin-right: 0;
 }
 
+/*MEDIA QUERIES*/
+@media (max-width: 875px) {
+	#large-nav {
+		display: none;
+	}
+
+	#burger {
+		float: right;
+		display: block;
+		margin-top: 6px;
+	}
+}
