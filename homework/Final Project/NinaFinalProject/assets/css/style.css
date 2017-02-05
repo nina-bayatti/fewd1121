@@ -12,6 +12,13 @@ h1.lead, h2.lead {
 	font-weight: 900;
 }
 
+a.webTitle {
+	color: #ff0067;
+	font-weight: 900;
+	font-size: 36px;
+	text-decoration: none;
+}
+
 h1.lead {
 	padding-top: 25%;
 	font-size: 67px;
@@ -21,26 +28,31 @@ h2.lead {
 	font-size: 40px;
 }
 
-.aboutTeaser h3 {
-	color: magenta;
+h3.aboutTeaser {
+	color: black;
+	text-shadow: 1px 1px darkgrey;
+	font-weight: bold;
+	font-size: 28px;
 }
 
-p.aboutTeaserText {
-	font-size: 16px;
-	color: grey;
+h1.about {
+	font-size: 40px;
+	color: black;
+	font-weight: bolder;
+}
+
+p {
+	font-size: 18px;
+	color: black;
+	line-height: 35px;
 }
 
 /*LAYOUT*/
+
 div.jumbotron {
 	background: url(../images/hero-img.png);
 	background-size: cover;
-	margin-top: 1%;
-}
-
-div.aboutTeaser {
-	background-image: url(../images/stretch-view.jpg);
-	background-size: cover;
-	height: 300px;
+	margin: 0;
 }
 
 a.btn-success {
@@ -56,5 +68,13 @@ a.btn-success:hover {
 a.btn-primary {
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
+	margin: 1% 0;
+	display: inline-block;
+}
+
+img.parallax-slider {
+	opacity: 0.38;
+	margin-left: 0;
+	margin-right: 0;
 }
 
