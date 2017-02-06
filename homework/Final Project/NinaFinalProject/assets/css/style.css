@@ -4,25 +4,22 @@
 
 /*FONTS*/
 
-h1.lead, h2.lead {
+h1.lead, h2.lead, a.webTitle {
 	color: #ff0067;
 	text-shadow: 2px 2px black;
 	font-weight: 900;
-	letter-spacing: 8px;
+	letter-spacing: 6px;
+	font-family: 'Bangers', sans-serif;
+
 }
 
 h1.lead {
 	padding-top: 25%;
 	font-size: 67px;
-	font-family: 'Bangers', sans-serif;
-	color: #ff0067;
-
 }
 
-h2.lead {
+h2.lead, a.webTitle {
 	font-size: 40px;
-	font-family: 'Bangers', sans-serif;
-
 }
 
 h3.aboutTeaser {
@@ -32,16 +29,14 @@ h3.aboutTeaser {
 	font-size: 28px;
 }
 
-h1.about {
-	font-size: 40px;
-	color: black;
-	font-weight: bolder;
-}
-
-p {
+p, li {
 	font-size: 18px;
 	color: black;
-	line-height: 35px;
+	line-height: 30px;
+}
+
+h1 {
+	color: #ff0067;
 }
 
 blockquote {
@@ -49,6 +44,15 @@ blockquote {
 	font-size: 24px;
 	font-family: 'Courgette', cursive;
 	font-weight: lighter;
+}
+
+.buy {
+	font-size: 14px;
+	font-style: italic;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 /*LAYOUT*/
