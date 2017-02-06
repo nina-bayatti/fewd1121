@@ -1,5 +1,5 @@
 /*IMPORTS*/
-@import url(font-awesome.min.css);
+@import url('../vendors/font-awesome-4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Bangers|Courgette');
 
 /*FONTS*/
@@ -100,6 +100,14 @@ img.parallax-slider {
 	opacity: 0.38;
 	margin-left: 0;
 	margin-right: 0;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th  {
+	border: none;
+}
+
+.table-responsive {
+	background-color: lightgrey;
 }
 
 /*MEDIA QUERIES*/
